@@ -1,0 +1,13 @@
+{
+  "nombreAsignatura": "Metodología",
+  "estudiantes": [
+    {
+      "nombre": "Marta",
+      "edad": 19
+    },
+    {
+      "nombre": "María",
+      "edad": 18
+    }
+  ]
+}
