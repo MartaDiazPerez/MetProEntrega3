@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 class PersonaTest {
 
     //Comprobamos que la funcion nombre lo devuelve correctamente

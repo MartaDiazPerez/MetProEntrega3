@@ -27,7 +27,7 @@ public class LeerUsuarioSolo {
         Gson gson = new Gson();
         try (FileReader reader = new FileReader(rutaArchivo)) {
            //Convierte el contenido del archivo JSON al tipo de objeto especificado
-            // return gson.fromJson(reader, clase);
+             return gson.fromJson(reader, clase);
         } catch (IOException e) {
             e.printStackTrace(); //Imprime los detalles del error en caso de fallo
             return null;

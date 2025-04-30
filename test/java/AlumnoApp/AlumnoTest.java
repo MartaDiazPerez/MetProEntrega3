@@ -11,6 +11,6 @@ class AlumnoTest {
         // Crear un objeto Alumno con datos de ejemplo
         Alumno alumno = new Alumno("Laura Rubio", 18, "Enfermería", 9.1);
         // Verificar que la cadena resultante contenga los valores esperados
-        assertEquals("Alumno{Laura Rubio, 18, Enfermería, 9.1}", alumno.toString());
+        assertEquals("Alumno{nombre='Laura Rubio', edad=18, carrera='Enfermería', notaMedia=9.1}" , alumno.toString());
     }
 }

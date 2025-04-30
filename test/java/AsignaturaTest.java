@@ -14,7 +14,7 @@ class AsignaturaTest {
         // Se crea la Asignatura con un nombre y la lista de estudiantes
         Asignatura asignatura = new Asignatura("Matemáticas", estudiantes);
 
-        assertEquals("Asignatura{ Matemáticas, María, Marta }", asignatura.toString());
+        assertEquals("Asignatura{nombreAsignatura='Matemáticas', estudiantes=[Estudiante{nombre='María', edad=18}, Estudiante{nombre='Marta', edad=19}]}", asignatura.toString());
 
     }
 }
